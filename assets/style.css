@@ -1,0 +1,443 @@
+/*
+General styles
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    display:block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    padding: 0px 70px 0px 70px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family:Verdana;
+}
+
+/*
+button styles
+*/
+button.btn1 {
+    background-color: lightseagreen;
+    color: white;
+    border: lightseagreen;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button.btn2 {
+    background-color: lightseagreen;
+    color: white;
+    border: lightseagreen;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+button.btn3 {
+    background-color: lightseagreen;
+    color: white;
+    border: lightseagreen;
+    height: 20px;
+}
+
+/*
+header styles
+*/
+
+header {
+    top:0;
+    right: 0;
+    left: 0;
+    background-color:#2c3e50;
+}
+
+header a {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+}
+
+header li {
+    float: left;
+}
+
+header span {
+    color:lightseagreen;
+}
+
+header i {
+    color:white;
+    font-size: 1rem;
+}
+
+header .icon {
+    padding-top:8px;
+    margin-right: 25px;
+}
+
+.login a {
+    text-decoration: none;
+
+}
+
+/*main styles
+*/
+
+main li {
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+}
+
+main a {
+    color: rgb(78, 75, 75);
+    text-decoration: none;
+}
+
+/*INTRO styles
+*/
+
+.intro {
+    background-image: url('layer3.png');
+    min-height: calc(100vh - 300px);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.intro.flex_container {
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1 {
+    font-size: 1.56rem;
+    color: white;
+}
+
+.intro h2 {
+    color: white;
+}
+
+.intro p {
+    color: white;
+}
+
+/*SECTION styles
+*/
+
+section nav {
+    margin-top: 5px;
+    padding: 20px 18px;
+}
+
+section p {
+    color: grey;
+}
+
+section label {
+    color: grey;
+}
+
+section li {
+    padding: 0 10px 0 10px;
+}
+
+section span {
+    color:lightseagreen;
+}
+
+section span.hol {
+    color:white;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 20px 20px;
+}
+
+/*INTRO styles
+*/
+
+.intro h1 {
+    padding-bottom: 10px;
+}
+
+.intro p {
+    padding-bottom: 20px;
+}
+
+
+/*SEARCH styles
+*/
+
+.search.container {
+    padding: 15px 18px;
+    background-image: url('rectangle1.png');
+}
+
+.search label {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search p {
+    padding-right: 100px;
+}
+
+/*SPECIAL OFFERS styles
+*/
+
+.specialoffers {
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+/*DEAL styles
+*/
+
+.deal {
+    padding-top: 10px;
+}
+
+.deal.flex_container li {
+    width: 33%;
+}
+
+.deal.flex_container figure {
+    position: relative;
+}
+
+.deal.flex_container figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightseagreen;
+    color: white;
+    padding: 8px 14px;
+}
+
+.deal.flex_container li:nth-child(n+4) {
+    margin-top:1%;
+}
+
+/*HOLIDAY TYPE styles
+*/
+
+.holidaytype {
+    padding: 10px;
+}
+
+.holidaytype h3 {
+    font-size: 1.56rem;
+}
+
+.holidaytype .container {
+    background-image: url('rectangle1.png');
+    color: white;
+}
+
+.holidaytype .flex_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 5px;
+}
+
+.holidaytype form {
+    padding-left: 30px;
+}
+
+/*CLIENTS styles
+*/
+
+.clients p {
+    margin-bottom: 20px;
+}
+
+.clients h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(78, 75, 75);
+}
+
+.clients .box {
+    margin-bottom: 20px;
+    width: 30%;
+    padding: 10px;
+    border-top: 5px solid lightseagreen;
+}
+
+/*
+footer styles
+*/
+
+footer {
+    padding: 20px 18px;
+    background-image: url('rectangle1.png');
+}
+
+footer h5 {
+    color: lightseagreen;
+    margin-bottom: 10px;
+}
+
+footer h6 {
+    padding-left: 400px;
+    color: white;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 5px;
+}
+
+footer span {
+    color: lightseagreen;
+}
+
+footer button {
+    margin-bottom: 5px;
+    background-color: #2c3e50;
+    color: white;
+    border: 1px solid white;
+    list-style-type: none;
+}
+
+footer .end {
+    padding: 10px;
+    width: 24%;
+}
+
+footer i {
+    padding-left: 20px;
+    padding-top: 8px;
+    color:white;
+    font-size: 1rem;
+}
+
+/*
+Media queries
+*/
+@media screen and (max-width: 480px) and (min-width: 0px) {
+    .deal.flex_container img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    header li {
+        font-size: 11px;
+    }
+
+    section li {
+        font-size: 12px;
+    }
+
+    .deal.flex_container li {
+        width: 50%;
+    }
+
+    .deal .cuba {
+        display:none;
+    } 
+
+    .clients p {
+        font-size: 11px;
+    }
+
+    .deal .nica {
+        padding-top: 7px;
+    }
+
+    .holidaytype h3 {
+        font-size: 18px;
+    }
+
+    footer h6 {
+        padding-left: 330px;
+    }
+
+    .search .container {
+        font-size: 15px;
+    }
+
+    .search .container input {
+        width: 20%;
+    }
+
+    .search .container form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 780px) {
+    header li {
+        font-size: 11px;
+    }
+
+    section li {
+        font-size: 12px;
+    }
+
+    .deal.flex_container li {
+        width: 50%;
+    }
+
+     .deal .cuba {
+        display:none;
+    } 
+
+    .clients p {
+        font-size: 14px;
+    }
+
+    .deal .nica {
+        padding-top: 7px;
+    }
+
+    .holidaytype h3 {
+        font-size: 18px;
+    }
+
+    footer h6 {
+        padding-left: 330px;
+    }
+
+    .search .container {
+        font-size: 15px;
+    }
+
+    .search .container input {
+        width: 20%;
+    }
+
+    .search .container form {
+        width: 70%;
+    }
+}
+ 
